@@ -17,7 +17,7 @@
   - use COUNT, SUM, AVG, MAX, and MIN with GROUP BY
 
 - In which situation would you use the HAVING function?
-  - when conditionally retrieving records based on aggregate functions
+  - HAVING clause is used specifically with the GROUP BY clause to filter grouped rows from the result set
 
 - Why can't I just use Ruby to process my database data?
   - SQL is faster; you might have to pull all the data out of the database then put it into memory, then iterate through the data using ruby while SQL can do it in one step
