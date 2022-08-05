@@ -18,6 +18,9 @@
 
 - In which situation would you use the HAVING function?
   - HAVING clause is used specifically with the GROUP BY clause to filter grouped rows from the result set
+  - https://www.geeksforgeeks.org/having-vs-where-clause-in-sql/
+  - WHERE is used prior to GROUP BY and HAVING after GROUP BY
+  - WHERE clause acts as a pre filter where as HAVING as a post filter
 
 - Why can't I just use Ruby to process my database data?
   - SQL is faster; you might have to pull all the data out of the database then put it into memory, then iterate through the data using ruby while SQL can do it in one step
