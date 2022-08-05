@@ -24,3 +24,6 @@
 
 - Why can't I just use Ruby to process my database data?
   - SQL is faster; you might have to pull all the data out of the database then put it into memory, then iterate through the data using ruby while SQL can do it in one step
+
+  ### Queries Order of Execution
+  - FROM and JOIN -> WHERE -> GROUP BY -> HAVING -> SELECT -> DISTINCT -> ORDER BY -> LIMIT / OFFSET
