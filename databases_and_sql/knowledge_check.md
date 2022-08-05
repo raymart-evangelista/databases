@@ -19,6 +19,7 @@
 - In which situation would you use the HAVING function?
   - HAVING clause is used specifically with the GROUP BY clause to filter grouped rows from the result set
   - https://www.geeksforgeeks.org/having-vs-where-clause-in-sql/
+  - https://www.sqlcourse.com/advanced-course/having-clause/
   - WHERE is used prior to GROUP BY and HAVING after GROUP BY
   - WHERE clause acts as a pre filter where as HAVING as a post filter
 
