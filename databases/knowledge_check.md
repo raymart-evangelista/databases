@@ -6,7 +6,6 @@
   - database organized according to the relational model of data--databases defined based on a set of relations or connections which determine how the data stored in them can interact
   - Help cut down on duplicated data and provided more useful data structure to interact with
 
-
 - What is a Primary Key?
   - unique identifier
 
